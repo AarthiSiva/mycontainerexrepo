@@ -8,7 +8,7 @@ Parameters:
 
   EksClusterName:
     Type: String
-    Description: TODO - The name of the EKS cluster created
+    Description: eksctl-demo
     Default: eksctl-demo
     MinLength: 1
     MaxLength: 100
@@ -16,8 +16,8 @@ Parameters:
 
   GitSourceRepo:
     Type: String
-    Description: TODO - GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: cd0157_Final_Pipeline
+    Description: mycontainerexrepo
+    Default: mycontainerexrepo
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: AarthiSiva
     Description: TODO - GitHub username or organization
     MinLength: 3
     MaxLength: 100
